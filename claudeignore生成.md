@@ -1,4 +1,12 @@
 
+
+# 自动生成 
+  输入如下的提示词：
+ 检查项目中是否存在 .gitignore、.dockerignore 等忽略文件：                                            
+  - 若存在：读取其内容，参考并扩展为 .claudeignore（增加 IDE 目录、虚拟环境、日志、临时文件、敏感配置等）
+  - 若不存在：根据项目类型直接生成合适的 .claudeignore
+
+
 # IDE 相关
 /.idea/
 .idea
